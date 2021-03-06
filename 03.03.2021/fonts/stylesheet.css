@@ -1,0 +1,13 @@
+/* */
+
+
+
+@font-face {
+    font-family: 'antoin';
+    src: url('sourcesanspro-extralightit-webfont.woff2') format('woff2'),
+        url('sourcesanspro-extralightit-webfont.woff') format('woff'),
+        url('Lato-BlackItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}

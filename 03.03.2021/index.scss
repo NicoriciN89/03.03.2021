@@ -1,0 +1,56 @@
+body {
+    font-family: arial;
+    
+}
+
+h1 h2 h3 {
+    font-family: antoin;
+}
+
+.news {
+    width: 80%;
+    margin: 20% auto;
+
+
+    img {
+        width: 100%;
+
+    }
+    header{
+        border-top: 2px solid #333;
+        border-bottom:2px solid #333 ;
+        margin-bottom: 3%;
+    }
+    h1{
+        font-size: 200%;
+    }
+}
+
+.row {
+    display: flex;
+
+    justify-content: space-between;
+
+    article:first-child {
+        width: 120%;
+        margin: .3% 2%;
+
+    }
+
+    article {
+         width: 55%;
+         border-bottom: 2px solid #333;
+         padding-bottom: 3% ;
+         position: relative;
+    }
+    a{
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+        
+
+    }
+    .row-2 {
+        order: -1;
+    }
+}

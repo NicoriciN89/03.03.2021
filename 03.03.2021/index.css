@@ -1,0 +1,60 @@
+body {
+  font-family: arial;
+}
+
+h1 h2 h3 {
+  font-family: antoin;
+}
+
+.news {
+  width: 80%;
+  margin: 20% auto;
+}
+
+.news img {
+  width: 100%;
+}
+
+.news header {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  margin-bottom: 3%;
+}
+
+.news h1 {
+  font-size: 200%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row article:first-child {
+  width: 120%;
+  margin: .3% 2%;
+}
+
+.row article {
+  width: 55%;
+  border-bottom: 2px solid #333;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.row a {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+.row .row-2 {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+/*# sourceMappingURL=index.css.map */
